@@ -57,11 +57,11 @@
 									descriptions. Note that this overrides %alwaysAddInForParams%
 			alwaysAddInForParams  - set to true to always add [in] for parameters that are not [out] or [in,out]
 		-->
-  <Variable name="stylecop" ifSet="false" value="false" hideInUI="y" />
+  <Variable name="stylecop" ifSet="false" value="true" hideInUI="y" />
   <Variable name="docBasesWithSee" ifSet="false" value="false" hideInUI="y" />
   <Variable name="docPrimaryBaseWithSee" ifSet="false" value="false" hideInUI="y" />
   <Variable name="docOverridesWithSee" ifSet="false" value="false" hideInUI="y" />
-  <Variable name="docUseAttributes" ifSet="false" value="true" hideInUI="y" />
-  <Variable name="suppressInOut" ifSet="false" value="false" />
+  <Variable name="docUseAttributes" ifSet="false" value="false" hideInUI="y" />
+  <Variable name="suppressInOut" ifSet="false" value="true" />
   <Variable name="alwaysAddInForParams" ifSet="false" value="false" />
 </UserVariables>
