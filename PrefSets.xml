@@ -61,7 +61,7 @@
     <EntrySuppressNewlines value="true" />
     <GroupSuppressNewlines value="true" />
     <AlignBlockStartColumns value="true" />
-    <AccessLevelsToComment value="all" />
+    <AccessLevelsToComment value="public, internal, protected" />
     <AccessLevelsApplyToAllCmds value="true" />
     <DeleteIllegalBlock value="true" />
     <EntryTag value="Newline" />
@@ -114,37 +114,6 @@
     <TagSuffix value=":" />
     <Casing value="Sentence" />
   </Natural>
-  <Misc>
-    <RulesPath value="C:\Source\AtomineerSettings" />
-    <UserName value="(Use login name)" />
-    <Language value="English (US)" />
-    <MMAddDocComment value="true" />
-    <MMDocThisScope value="true" />
-    <MMDocThisFile value="true" />
-    <MMDocThisProject value="true" />
-    <MMDocThisSolution value="true" />
-    <MMDocAll value="true" />
-    <MMDeleteDocsFromFile value="true" />
-    <MMShowDocWindow value="true" />
-    <MMColumnise value="true" />
-    <MMOutlineDocComments value="true" />
-    <MMImplementMethod value="true" />
-    <MMAddAccessMethods value="true" />
-    <MMAddProperty value="true" />
-    <MMCopyAsText value="true" />
-    <MMCheckForUpdates value="true" />
-    <CMAddDocComment value="true" />
-    <CMDocThisScope value="false" />
-    <CMDocThisFile value="false" />
-    <CMDocAll value="false" />
-    <CMShowDocWindow value="false" />
-    <CMColumnise value="false" />
-    <CMCopyAsText value="false" />
-    <CMAddProperty value="false" />
-    <CMAddAccessMethods value="false" />
-    <CMImplementMethod value="false" />
-    <EditXmlInNotepad />
-  </Misc>
   <PrefSet name="Visual Basic" filetypes=".vb.vba.asp.bas">
     <Format>
       <EntrySuppressNewlines value="true" />
@@ -185,4 +154,35 @@
       <BorderColour value="" />
     </DocBox>
   </PrefSet>
+  <Misc>
+    <RulesPath value="C:\Source\AtomineerSettings" />
+    <UserName value="(Use login name)" />
+    <Language value="English (US)" />
+    <MMAddDocComment value="true" />
+    <MMDocThisScope value="true" />
+    <MMDocThisFile value="true" />
+    <MMDocThisProject value="true" />
+    <MMDocThisSolution value="true" />
+    <MMDocAll value="true" />
+    <MMDeleteDocsFromFile value="true" />
+    <MMShowDocWindow value="true" />
+    <MMColumnise value="true" />
+    <MMOutlineDocComments value="true" />
+    <MMImplementMethod value="true" />
+    <MMAddAccessMethods value="true" />
+    <MMAddProperty value="true" />
+    <MMCopyAsText value="true" />
+    <MMCheckForUpdates value="true" />
+    <CMAddDocComment value="true" />
+    <CMDocThisScope value="false" />
+    <CMDocThisFile value="false" />
+    <CMDocAll value="false" />
+    <CMShowDocWindow value="false" />
+    <CMColumnise value="false" />
+    <CMCopyAsText value="false" />
+    <CMAddProperty value="false" />
+    <CMAddAccessMethods value="false" />
+    <CMImplementMethod value="false" />
+    <EditXmlInNotepad />
+  </Misc>
 </Prefs>
