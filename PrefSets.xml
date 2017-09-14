@@ -1,36 +1,5 @@
 <?xml version="1.0"?>
 <Prefs>
-  <Misc>
-    <RulesPath value="C:\Source\AtomineerSettings" />
-    <UserName value="(Use login name)" />
-    <Language value="English (US)" />
-    <MMAddDocComment value="true" />
-    <MMDocThisScope value="true" />
-    <MMDocThisFile value="true" />
-    <MMDocThisProject value="true" />
-    <MMDocThisSolution value="true" />
-    <MMDocAll value="true" />
-    <MMDeleteDocsFromFile value="true" />
-    <MMShowDocWindow value="true" />
-    <MMColumnise value="true" />
-    <MMOutlineDocComments value="true" />
-    <MMImplementMethod value="true" />
-    <MMAddAccessMethods value="true" />
-    <MMAddProperty value="true" />
-    <MMCopyAsText value="true" />
-    <MMCheckForUpdates value="true" />
-    <CMAddDocComment value="true" />
-    <CMDocThisScope value="false" />
-    <CMDocThisFile value="false" />
-    <CMDocAll value="false" />
-    <CMShowDocWindow value="false" />
-    <CMColumnise value="false" />
-    <CMCopyAsText value="false" />
-    <CMAddProperty value="false" />
-    <CMAddAccessMethods value="false" />
-    <CMImplementMethod value="false" />
-    <EditXmlInNotepad />
-  </Misc>
   <Doxygen>
     <CommandPrefix value="\" />
     <SuppressBriefTags value="true" />
@@ -67,9 +36,9 @@
     <DuplicateBaseDocs value="true" />
     <AddSeeForBases value="false" />
     <SummaryOnlyForBases value="false" />
-    <AddSeeForOverrides value="false" />
+    <AddSeeForOverrides value="true" />
     <SummaryOnlyForOverrides value="false" />
-    <GenerateInheritdoc />
+    <GenerateInheritdoc value="true" />
     <DocAllAddFileHeader value="false" />
     <DateFormat value="d" />
     <LiveCommentUpdate value="true" />
@@ -81,6 +50,7 @@
     <AddDocTableForEnums value="false" />
     <LiveSLCommentUpdate value="true" />
     <AlignBlockStartColumns value="false" />
+    <ConvertSquigglies value="false" />
   </DocComment>
   <DocXml>
     <BlockFormatNew />
@@ -144,4 +114,75 @@
     <TagSuffix value=":" />
     <Casing value="Sentence" />
   </Natural>
+  <Misc>
+    <RulesPath value="C:\Source\AtomineerSettings" />
+    <UserName value="(Use login name)" />
+    <Language value="English (US)" />
+    <MMAddDocComment value="true" />
+    <MMDocThisScope value="true" />
+    <MMDocThisFile value="true" />
+    <MMDocThisProject value="true" />
+    <MMDocThisSolution value="true" />
+    <MMDocAll value="true" />
+    <MMDeleteDocsFromFile value="true" />
+    <MMShowDocWindow value="true" />
+    <MMColumnise value="true" />
+    <MMOutlineDocComments value="true" />
+    <MMImplementMethod value="true" />
+    <MMAddAccessMethods value="true" />
+    <MMAddProperty value="true" />
+    <MMCopyAsText value="true" />
+    <MMCheckForUpdates value="true" />
+    <CMAddDocComment value="true" />
+    <CMDocThisScope value="false" />
+    <CMDocThisFile value="false" />
+    <CMDocAll value="false" />
+    <CMShowDocWindow value="false" />
+    <CMColumnise value="false" />
+    <CMCopyAsText value="false" />
+    <CMAddProperty value="false" />
+    <CMAddAccessMethods value="false" />
+    <CMImplementMethod value="false" />
+    <EditXmlInNotepad />
+  </Misc>
+  <PrefSet name="Visual Basic" filetypes=".vb.vba.asp.bas">
+    <Format>
+      <EntrySuppressNewlines value="true" />
+      <GroupSuppressNewlines value="true" />
+      <AlignBlockStartColumns value="true" />
+      <EntryTag value="Newline" />
+      <EntryNewline value="Nothing" />
+      <EntryBody value="Newline" />
+      <GroupTag value="Newline" />
+      <GroupNewline value="Align" />
+      <GroupBody value="Newline" />
+      <SingleTag value="Nothing" />
+      <SingleBody value="Nothing" />
+    </Format>
+    <DocComment>
+      <WordWrapColumn value="150" />
+      <WordWrapRelative value="true" />
+      <CommentStyle value="DocXml" />
+      <Separator value="(No first line separator)" />
+      <LineHeader2 value="''' " />
+      <SeparatorB value="(No last line separator)" />
+      <BlanksAbove value="1" />
+      <BlanksAfterRegion value="1" />
+      <BlanksAfterScope value="0" />
+      <BlanksBelow value="0" />
+      <BlanksBetweenEntries value="false" />
+      <SimpleFormatForOneLiners value="true" />
+      <InsertLocation value="AboveDecl" />
+      <LineCommentOnSameLine value="false" />
+      <SingleLinePrefix value="///&lt; " />
+      <SingleLineSuffix value="(None)" />
+      <SingleLineMinColumn value="0" />
+      <LineHeader />
+    </DocComment>
+    <DocBox>
+      <Enabled value="false" />
+      <FillColour value="" />
+      <BorderColour value="" />
+    </DocBox>
+  </PrefSet>
 </Prefs>
