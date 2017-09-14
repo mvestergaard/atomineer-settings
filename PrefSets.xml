@@ -60,7 +60,7 @@
   <Format>
     <EntrySuppressNewlines value="true" />
     <GroupSuppressNewlines value="true" />
-    <AlignBlockStartColumns value="true" />
+    <AlignBlockStartColumns value="false" />
     <AccessLevelsToComment value="public, internal, protected" />
     <AccessLevelsApplyToAllCmds value="true" />
     <DeleteIllegalBlock value="true" />
@@ -68,7 +68,7 @@
     <EntryNewline value="Nothing" />
     <EntryBody value="Newline" />
     <GroupTag value="Newline" />
-    <GroupNewline value="Align" />
+    <GroupNewline value="Nothing" />
     <GroupBody value="Newline" />
     <SingleTag value="Nothing" />
     <SingleBody value="Nothing" />
